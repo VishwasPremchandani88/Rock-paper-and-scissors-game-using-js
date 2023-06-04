@@ -1,0 +1,46 @@
+body
+{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.developer
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+button
+{
+    font-size: 20px;
+    padding: 15px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+.tworo 
+{
+    background-color: yellow;
+}
+.fivero
+{
+    background-color: green;
+}
+.tworo:hover
+{
+    background-color: aquamarine;
+    transition-duration: 1s;
+}
+.fivero:hover
+{
+    background-color: aquamarine;
+    transition-duration: 1s;
+}
+.Exit:hover
+{
+    background-color: aquamarine;
+    transition-duration: 1s;
+}
